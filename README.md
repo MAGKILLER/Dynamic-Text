@@ -1,4 +1,5 @@
-# magkiller.github.io
-My GitHub Pages
+#动态文字<br>Dynamic Text
+#模仿打字与删除效果<br>"Type" and "Delete" animation
 
-These are my personal web pages.
+使用Javascript控制CSS来实现该效果。
+Using Javascript.
