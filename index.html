@@ -3,22 +3,21 @@
 <head>
 	<title>Dynamic Text Demo</title>
 	<meta charset="utf-8">
-    
     <script >
     var indexOfId = 0;
-    var identities = [
+    var textArray = [
         "of Dynamic Text.",
         "It is created by",
         "MAGKiller!",
         "This is a demo"
     ];//the words that you want to show
-    var numberOfId = identities.length;
+    var numberOfId = textArray.length;
     var tv = setInterval(setContent, 4000);//loop for change the words(every 4s)
     function setContent() {
         if (indexOfId == numberOfId){
             indexOfId = 0;
         }
-        display(identities[indexOfId]);
+        display(textArray[indexOfId]);
         indexOfId++;
     }
     function display(content) {
