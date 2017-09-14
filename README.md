@@ -3,4 +3,4 @@
 
 使用Javascript控制CSS来实现该效果。
 <br>Using Javascript.
-在线演示 Demo： http://magkiller.com
+在线演示 Demo： http://magkiller.com/D-Text.html
